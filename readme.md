@@ -17,22 +17,22 @@ Composer	(Download composer https://getcomposer.org/download/)
 Local server (xammp/wampp/laragon)
 
 
-INSTALLATION INSTRUCTIONS
+### INSTALLATION INSTRUCTIONS
 
-#  Create a database locally named "labs".
+1  Create a database locally named "labs".
 
-#  Download or Pull Laravel/php project from git provider.
+2  Download or Pull Laravel/php project from git provider.
 
-#  Rename .env.example file to .env inside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
+3  Rename .env.example file to .env inside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
 
-#  Open the console and cd your project root directory
+4  Open the console and cd your project root directory
 
-#  Run composer install or php composer.phar install
+5  Run composer install or php composer.phar install
 
-#  Run php artisan key:generate
+6  Run php artisan key:generate
 
-#  Run php artisan migrate
+7  Run php artisan migrate
 
-#  Run php artisan serve
+8  Run php artisan serve
 
-#  Register a user and login
+9  Register a user and login
